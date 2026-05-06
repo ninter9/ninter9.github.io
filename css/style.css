@@ -27,6 +27,7 @@ a {
 img {
   max-width: 500px;
   width: 100%;
+  margin: 5px;
 }
 
 header {
@@ -351,6 +352,7 @@ footer {
     }
   }
   nav {
+    justify-content: flex-end;
     button {
       display: flex;
     }
@@ -362,6 +364,18 @@ footer {
       display: flex;
       gap: 1.5rem;
     }
+  }
+
+  #Education{
+    .timleine-item{
+      .content{
+        padding: 0 1rem;
+        p{
+          font-size: 1rem;
+        }
+      }
+    }
+    
   }
 
   #Contact {
