@@ -332,6 +332,11 @@ main {
       border-color: var(--primary);
       grid-column: 2;
     }
+    .Si{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
   }
 }
 
