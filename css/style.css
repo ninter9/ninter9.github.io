@@ -399,6 +399,15 @@ footer {
   }
 
   #Education{
+    .timeline{
+      padding-left: 5px;
+    }
+    .tim{
+      .item2{
+      margin-right: 5px;
+      }
+    }
+    
     .timleine-item{
       .content{
         padding: 0 1rem;
