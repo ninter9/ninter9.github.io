@@ -18,7 +18,7 @@ Layout využívá flexbox. Animace položek timeline jsou realizovány přes CSS
 
 ## Použití AI
 Při tvorbě projektu jsem využíval GitHub Copilot jako pomocný nástroj pro:
-- pasní textů souvislých textů
+- psaní textů souvislých textů
 - porozumění a ladění JavaScriptu (IntersectionObserver, scroll tracking)
 
 

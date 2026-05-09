@@ -1,4 +1,4 @@
-const sec = document.querySelectorAll("main section");
+const sec = document.querySelectorAll("main > section");
 const navL = document.querySelectorAll("nav ul li a");
 const timeIt = document.querySelectorAll(".timleine-item");
 
@@ -36,4 +36,12 @@ const observer = new IntersectionObserver(
 timeIt.forEach((item, index) => {
   item.style.transitionDelay = index * 0.15 + "s";
   observer.observe(item);
+});
+
+const navBtn=document.querySelector("nav button");
+navL.forEach((link)=>{
+  link.addEventListener("click",()=>{
+    document.getElementById("nav-menu").classList.remove("open");
+    navBtn.classList.remove("open");
+  });
 });
